@@ -1,0 +1,91 @@
+name: Bug Report
+description: Create a report to help us improve.
+labels: ["bug"]
+
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched the Issues and have not found a suitable solution or answer.
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue. Explain what you **expected** to happen and what **actually** happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: |
+        Please provide either **steps to reproduce** or a [**minimal reproducible example**](https://stackoverflow.com/help/minimal-reproducible-example).
+        Providing a minimal reproducible example will help us triage your issue faster.
+      placeholder: |
+        1. Step 1...
+        2. Step 2...
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Version
+      description: Which version or branch has this issue?
+      placeholder: "1.2.3"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Development Tool
+      description: What development tool is being used?
+      placeholder: "Xcode 15.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Installation Method
+      description: What's your installation method?
+      options:
+        - Clone/Submodule
+        - Swift Package Manager
+        - CocoaPods
+        - Carthage
+        - Zip
+        - Others
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Targeted Platforms
+      description: What platform(s) is the issue affecting?
+      multiple: true
+      options:
+        - macOS
+        - macCatalyst
+        - iOS
+        - watchOS
+        - tvOS
+        - visionOS
+        - App Extensions
+        - All
+        - Others
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Other libraries that might be involved, or any other relevant information you think would be useful.
+    validations:
+      required: false
+
