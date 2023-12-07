@@ -14,22 +14,7 @@ Want to give it a try? YeNom is already available for iPhone, iPad and Apple Wat
 
 We love and appreciate the open source environment. And due to YeNom's highly modular architecture design, we have open sourced some components and will public more components as time goes by.
 
-You are welcome to participate in development. Or help with missing documentation or translation, diagnostic and reporting issues.
-
-Contributions are greatly appreciated and needed in any of the following ways:
-
-- Code
-  - Improve open source components
-  - Help diagnose and report problems
-  - Suggest fixes by sending patches
-  - Help with missing documentation
-
-- Graphic Design
-  - Fine-tune or redesign some UI/icons
-
-- Localization
-  - Correct translation
-  - Provide localization for more languages
+You are welcome to participate in development. Or help with missing documentation or translation, diagnostic and reporting issues. Contributions in any of the following ways are greatly appreciated and needed, but are not limited to: code, graphic design, localization. See [CONTRIBUTING](https://github.com/YeNomX/.github/blob/main/CONTRIBUTING.md) for details.
 
 ## Contact
 
