@@ -8,7 +8,11 @@ YeNom is an accounting tool to record your daily income or expense lightning fas
 
 Want to give it a try? YeNom is already available for iPhone, iPad and Apple Watch.
 
-[![Download on the App Store](https://raw.githubusercontent.com/YeNomX/YeNomX.github.io/main/_assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/us/app/yenom/id1120637689?platform=iphone)
+[![Download on the App Store](https://raw.githubusercontent.com/YeNomX/YeNomX.github.io/main/_assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)][AppStore-Link]
+
+[![App Store](https://img.shields.io/itunes/v/1120637689?logo=apple&label=App%20Store&labelColor=2F4858&color=A8DF8E)][AppStore-Link]
+
+[AppStore-Link]: https://apps.apple.com/us/app/yenom/id1120637689?platform=iphone
 
 ## About Source Code
 
